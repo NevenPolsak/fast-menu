@@ -1,0 +1,33 @@
+.service {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+
+.service .box {
+  text-align: center;
+  padding: 2rem;
+}
+
+.service .box .icon {
+  height: 7rem;
+  width: 7rem;
+  line-height: 7rem;
+  font-size: 1.5rem;
+  color: #000;
+  background: rgb(255, 187, 0);
+  margin-bottom: 1rem;
+  border-radius: 10%;
+}
+
+.service .box h3 {
+  padding: 1rem 0;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.service .box p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #aaa;
+}

@@ -1,0 +1,34 @@
+.reviews .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+
+.reviews .box-container .box {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .reviews .box-container .box img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+
+  .reviews .box-container .box h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: black;
+  }
+  
+  .reviews .box-container .box p {
+    font-size: 1.4rem;
+    line-height: 2;
+    color: #aaa;
+    padding: 1rem 0;
+  }
+  
+  .reviews .box-container .box .stars {
+    padding-top: .5rem;
+  }
