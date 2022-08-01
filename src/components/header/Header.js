@@ -33,7 +33,7 @@ function Header() {
       </nav>
 
       <FaShoppingCart className="icons" />
-      <a href="/" className="logo">
+      <a href="" className="logo">
         <img src={logo} alt="/" />
       </a>
     </header>
